@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="3" ignored="0" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="96374" started-at="2018-07-22T07:55:32Z" finished-at="2018-07-22T07:57:08Z">
+    <groups>
+      <group name="smoke">
+        <method signature="CreateTestLead.createLead(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:week3.day2.CreateTestLead@66480dd7]" name="createLead" class="week3.day2.CreateTestLead"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="96374" started-at="2018-07-22T07:55:32Z" finished-at="2018-07-22T07:57:08Z">
+      <class name="week3.day2.CreateTestLead">
+        <test-method status="PASS" signature="loginn(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:week3.day2.CreateTestLead@66480dd7]" name="loginn" is-config="true" duration-ms="18648" started-at="2018-07-22T07:55:32Z" finished-at="2018-07-22T07:55:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginn -->
+        <test-method status="SKIP" signature="createLead(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:week3.day2.CreateTestLead@66480dd7]" name="createLead" duration-ms="5671" started-at="2018-07-22T07:55:51Z" data-provider="fetchData" finished-at="2018-07-22T07:55:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tcs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wick]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException
+at wdMethods.SeMethods.locateElement(SeMethods.java:61)
+at week3.day2.CreateTestLead.createLead(CreateTestLead.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="closebbrowser()[pri:0, instance:week3.day2.CreateTestLead@66480dd7]" name="closebbrowser" is-config="true" duration-ms="2155" started-at="2018-07-22T07:55:57Z" finished-at="2018-07-22T07:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebbrowser -->
+        <test-method status="PASS" signature="loginn(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:week3.day2.CreateTestLead@66480dd7]" name="loginn" is-config="true" duration-ms="16857" started-at="2018-07-22T07:55:59Z" finished-at="2018-07-22T07:56:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginn -->
+        <test-method status="FAIL" signature="createLead(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:week3.day2.CreateTestLead@66480dd7]" name="createLead" duration-ms="5595" started-at="2018-07-22T07:56:16Z" data-provider="fetchData" finished-at="2018-07-22T07:56:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tcs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wick]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException
+at wdMethods.SeMethods.locateElement(SeMethods.java:61)
+at week3.day2.CreateTestLead.createLead(CreateTestLead.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="closebbrowser()[pri:0, instance:week3.day2.CreateTestLead@66480dd7]" name="closebbrowser" is-config="true" duration-ms="2172" started-at="2018-07-22T07:56:21Z" finished-at="2018-07-22T07:56:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebbrowser -->
+        <test-method status="PASS" signature="loginn(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:week3.day2.CreateTestLead@66480dd7]" name="loginn" is-config="true" duration-ms="14262" started-at="2018-07-22T07:56:23Z" finished-at="2018-07-22T07:56:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginn -->
+        <test-method status="FAIL" signature="createLead(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:week3.day2.CreateTestLead@66480dd7]" name="createLead" duration-ms="5584" started-at="2018-07-22T07:56:38Z" data-provider="fetchData" finished-at="2018-07-22T07:56:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[goku]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[saiyan]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException
+at wdMethods.SeMethods.locateElement(SeMethods.java:61)
+at week3.day2.CreateTestLead.createLead(CreateTestLead.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="closebbrowser()[pri:0, instance:week3.day2.CreateTestLead@66480dd7]" name="closebbrowser" is-config="true" duration-ms="2139" started-at="2018-07-22T07:56:43Z" finished-at="2018-07-22T07:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebbrowser -->
+        <test-method status="PASS" signature="loginn(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:week3.day2.CreateTestLead@66480dd7]" name="loginn" is-config="true" duration-ms="15356" started-at="2018-07-22T07:56:45Z" finished-at="2018-07-22T07:57:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginn -->
+        <test-method status="FAIL" signature="createLead(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:week3.day2.CreateTestLead@66480dd7]" name="createLead" duration-ms="5572" started-at="2018-07-22T07:57:01Z" data-provider="fetchData" finished-at="2018-07-22T07:57:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[goku]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[saiyan]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException
+at wdMethods.SeMethods.locateElement(SeMethods.java:61)
+at week3.day2.CreateTestLead.createLead(CreateTestLead.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="closebbrowser()[pri:0, instance:week3.day2.CreateTestLead@66480dd7]" name="closebbrowser" is-config="true" duration-ms="2162" started-at="2018-07-22T07:57:06Z" finished-at="2018-07-22T07:57:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebbrowser -->
+      </class> <!-- week3.day2.CreateTestLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
